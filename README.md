@@ -14,7 +14,7 @@
 
 ## 📢 Visite o site
 
-[Beautysalon](https://lobinhodev.github.io/Responsive-website-resto-food/).
+[Resto-food](https://lobinhodev.github.io/Responsive-website-resto-food/).
 
 ## 🧠 Tecnologias
 
