@@ -188,6 +188,8 @@ header .icons #menu-bars {
     flex-wrap: wrap;
     gap: 2rem;
     padding-top: 9rem;
+    position: relative;
+    overflow-x: hidden;
 }
 
 .home .home-slider .slide .content {
