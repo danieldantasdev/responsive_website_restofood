@@ -219,7 +219,7 @@ header .icons #menu-bars {
     line-height: 1.5;
 }
 
-.swiper-slide {
+.swiper-slide .slide {
     position: relative;
     overflow-x: hidden; /*IMPORTNTE PARA NÃO BUGAR O CARROSEL */
 }
