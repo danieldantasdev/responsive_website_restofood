@@ -21,9 +21,11 @@
 
 html {
     font-size: 62.5%;
-    overflow-x: hidden;
     scroll-padding-top: 5.5rem;
     scroll-behavior: smooth;
+
+    position: relative;
+    overflow-x: hidden; /* IMPORTNTE PARA NÃO BUGAR O CARROSEL */
 }
 
 section {
@@ -221,7 +223,7 @@ header .icons #menu-bars {
 
 .home {
     position: relative;
-    overflow: hidden; /* IMPORTNTE PARA NÃO BUGAR O CARROSEL */
+    overflow-x: hidden; /* IMPORTNTE PARA NÃO BUGAR O CARROSEL */
 }
 
 .swiper-pagination-bullet-active {
@@ -449,7 +451,7 @@ header .icons #menu-bars {
 
 .review {
     position: relative;
-    overflow: hidden; /* IMPORTNTE PARA NÃO BUGAR O CARROSEL */
+    overflow-x: hidden; /* IMPORTNTE PARA NÃO BUGAR O CARROSEL */
 }
 
 .review .slide {
