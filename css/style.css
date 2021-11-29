@@ -676,6 +676,8 @@ header .icons #menu-bars {
 @media (max-width: 450px) {
     html {
         font-size: 50%;
+        position: relative;
+        overflow-x: hidden; /* IMPORTNTE PARA NÃO BUGAR O CARROSEL */
     }
 
     .dishes .box-container .box img {
