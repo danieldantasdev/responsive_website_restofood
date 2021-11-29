@@ -221,7 +221,7 @@ header .icons #menu-bars {
 
 .home {
     position: relative;
-    overflow-x: hidden; /* IMPORTNTE PARA NÃO BUGAR O CARROSEL */
+    overflow: hidden; /* IMPORTNTE PARA NÃO BUGAR O CARROSEL */
 }
 
 .swiper-pagination-bullet-active {
@@ -449,7 +449,7 @@ header .icons #menu-bars {
 
 .review {
     position: relative;
-    overflow-x: hidden; /* IMPORTNTE PARA NÃO BUGAR O CARROSEL */
+    overflow: hidden; /* IMPORTNTE PARA NÃO BUGAR O CARROSEL */
 }
 
 .review .slide {
