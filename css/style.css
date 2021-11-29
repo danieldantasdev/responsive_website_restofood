@@ -221,7 +221,7 @@ header .icons #menu-bars {
 
 .swiper-pagination {
     position: relative;
-    overflow-x: hidden; /* IMPORTNTE PARA NÃO BUGAR O CARROSEL */
+    overflow: hidden; /* IMPORTNTE PARA NÃO BUGAR O CARROSEL */
 }
 
 .swiper-pagination-bullet-active {
@@ -452,6 +452,8 @@ header .icons #menu-bars {
     box-shadow: var(--box-shadow);
     border: 0.1rem solid rgba(0, 0, 0, 0.2);
     border-radius: 0.5rem;
+
+    overflow-x: hidden;
     position: relative;
 }
 
