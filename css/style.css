@@ -192,6 +192,8 @@ header .icons #menu-bars {
 
 .home .home-slider .slide .content {
     flex: 1 1 45rem;
+    position: relative;
+    overflow-x: hidden;
 }
 
 .home .home-slider .slide .image {
@@ -219,10 +221,9 @@ header .icons #menu-bars {
     line-height: 1.5;
 }
 
-.swiper-container .home-slider {
+/* .swiper-container .home-slider {
     position: relative;
-    overflow-x: hidden; /* IMPORTNTE PARA NÃO BUGAR O CARROSEL */
-}
+    overflow-x: hidden; /* IMPORTNTE PARA NÃO BUGAR O CARROSEL }*/
 
 .swiper-pagination-bullet-active {
     background: var(--green);
