@@ -221,7 +221,7 @@ header .icons #menu-bars {
 
 .swiper-pagination {
     position: relative;
-    overflow: hidden; /* IMPORTNTE PARA NÃO BUGAR O CARROSEL */
+    overflow-x: hidden; /* IMPORTNTE PARA NÃO BUGAR O CARROSEL */
 }
 
 .swiper-pagination-bullet-active {
