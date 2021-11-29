@@ -219,9 +219,9 @@ header .icons #menu-bars {
     line-height: 1.5;
 }
 
-.swiper-pagination {
+.swiper-container .home-slider {
     position: relative;
-    overflow: hidden; /* IMPORTNTE PARA NÃO BUGAR O CARROSEL */
+    overflow-x: hidden; /* IMPORTNTE PARA NÃO BUGAR O CARROSEL */
 }
 
 .swiper-pagination-bullet-active {
